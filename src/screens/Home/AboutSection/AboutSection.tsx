@@ -30,7 +30,7 @@ const SecondSection = forwardRef((props, ref) => (
       <ul className={styles.socialLinks}>
         <li className={styles.socialLink}>
           <a
-            href="https://github.com/BeAnjara"
+            href="https://github.com/hbeanjarah"
             target="_blank"
             rel="noreferrer"
             className={styles.socialIcon}>
