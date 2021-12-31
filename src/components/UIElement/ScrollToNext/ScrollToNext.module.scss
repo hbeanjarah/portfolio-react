@@ -1,0 +1,18 @@
+@use '../../../styles/keyframes.scss';
+.bounce {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  animation: bounce 2s infinite;
+}
+
+.scrollText {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: -0.125rem;
+}
+
+.chevronIcon {
+  text-align: center;
+}

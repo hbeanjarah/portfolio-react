@@ -1,17 +1,16 @@
 import React, { lazy } from 'react';
-import {} from 'history';
-import { Route, Routes, useLocation } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { routes } from '../configs/routes';
+import AboutSection from '../screens/Home/AboutSection';
 
 const Home = lazy(() => import('../screens/Home'));
 
 const BaseRoutes = () => {
-  const location: any = useLocation();
-  const background = location.state?.background;
-
   return (
     <Routes>
       <Route index element={<Home />} />
+      <Route path={routes.HOMESECTION} element={<Home />} />
+      <Route path={routes.ABOUT} element={<AboutSection />} />
     </Routes>
   );
 };

@@ -1,9 +1,9 @@
-import './styles/main.scss';
 import React, { Suspense } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import './styles/main.scss';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Preloader from './components/UIElement/Preloader';
 import BaseRoutes from './routes/BaseRoutes';
-import Home from './screens/Home';
+import 'antd/dist/antd.min.css';
 
 const App = () => {
   return (
