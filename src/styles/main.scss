@@ -41,7 +41,7 @@ body {
 }
 
 a {
-  font-family: 'SegoeUI';
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
   color: inherit;
   cursor: pointer;
@@ -83,7 +83,9 @@ h6 {
 }
 p {
   margin: 0;
-  font-family: 'SegoeUI';
+  font-family: Poppins, sans-serif;
+  color: #545454;
+  line-height: 32px;
 }
 cite {
   font-style: normal;

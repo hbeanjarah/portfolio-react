@@ -19,14 +19,12 @@ const MainSection = (props: MainSectionProps) => {
           </h2>
 
           <h1 className={styles.mainTitle}>
-            I'M
-            <strong className={styles.mainName}>
-              {' '}
-              Be Anjara <span>HOUSSEN</span>
-            </strong>
+            I'm
+            <strong className={styles.mainName}> Be Anjara HOUSSEN</strong>
           </h1>
+          <h2 className={styles.postTitle}> Javascript Developer</h2>
 
-          <div style={{ paddingTop: 0 }}>
+          {/* <div style={{ paddingTop: 0 }}>
             <Typewriter
               strings={[
                 'Fullstack Javascript Developer',
@@ -36,7 +34,7 @@ const MainSection = (props: MainSectionProps) => {
               wrapperClassName={styles.typewriterWrapper}
               cursorClassName={styles.typewriterCursor}
             />
-          </div>
+          </div> */}
         </div>
 
         <LazyLoadImage

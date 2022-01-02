@@ -5,7 +5,7 @@ export const PROJECTS: ProjectInterface[] = [
     description:
       'Hoomies offre la possibilité aux clients de chercher une maison de manière rapide et efficace. C’est une plateforme immobilière qui permet de relier directement les propriétaires et les locataires sans intermédiaire.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348072/portfolio/projects/react-marketplace/apiko-marketplace-lg_xppe9n.jpg',
+      src: 'https://res.cloudinary.com/beanjara/image/upload/v1641138971/s7o46g5cniuce8gj23ey.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg=='
     },
@@ -21,7 +21,7 @@ export const PROJECTS: ProjectInterface[] = [
     description:
       'Hoomies offre la possibilité aux clients de chercher une maison de manière rapide et efficace. C’est une plateforme immobilière qui permet de relier directement les propriétaires et les locataires sans intermédiaire.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348072/portfolio/projects/react-marketplace/apiko-marketplace-lg_xppe9n.jpg',
+      src: 'https://res.cloudinary.com/beanjara/image/upload/v1641138971/s7o46g5cniuce8gj23ey.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg=='
     },
@@ -37,7 +37,7 @@ export const PROJECTS: ProjectInterface[] = [
     description:
       'Hoomies offre la possibilité aux clients de chercher une maison de manière rapide et efficace. C’est une plateforme immobilière qui permet de relier directement les propriétaires et les locataires sans intermédiaire.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348072/portfolio/projects/react-marketplace/apiko-marketplace-lg_xppe9n.jpg',
+      src: 'https://res.cloudinary.com/beanjara/image/upload/v1641138971/s7o46g5cniuce8gj23ey.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg=='
     },

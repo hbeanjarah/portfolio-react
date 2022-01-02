@@ -11,9 +11,18 @@
   text-align: left;
 }
 
+@mixin aboutStyle {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 70px;
+  padding-bottom: 30px;
+  letter-spacing: -1.01px;
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+}
+
 .title {
-  padding-left: 0.2rem;
-  font-size: 2.4rem;
+  @include aboutStyle();
 }
 
 .wave {
@@ -25,8 +34,14 @@
 }
 
 .mainTitle {
-  font-size: 2.5rem;
+  @include aboutStyle();
   word-spacing: 0.3rem;
+}
+
+.postTitle {
+  @include aboutStyle();
+  color: #0db3c7;
+  font-weight: 900;
 }
 
 .mainName {

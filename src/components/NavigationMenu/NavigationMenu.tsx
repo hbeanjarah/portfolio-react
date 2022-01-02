@@ -8,8 +8,9 @@ import { useState } from 'react';
 const menus = {
   home: 'home',
   about: 'about',
-  projects: 'projects',
-  resume: 'resume'
+  project: 'project',
+  resume: 'resume',
+  contact: 'contact'
 };
 
 const NavLinks = () => {
@@ -48,10 +49,10 @@ const NavLinks = () => {
         <NavHashLink
           to={routes.PROJECT}
           scroll={(el) => {
-            setCurrentMenu(menus.projects);
+            setCurrentMenu(menus.project);
             el.scrollIntoView({ behavior: 'smooth', block: 'end' });
           }}
-          className={ifCurrentMenu(menus.projects) ? styles.active : ''}>
+          className={ifCurrentMenu(menus.project) ? styles.active : ''}>
           <AiOutlineFundProjectionScreen />
           Projects
         </NavHashLink>
@@ -59,11 +60,11 @@ const NavLinks = () => {
       <li>
         <NavHashLink
           scroll={(el) => {
-            setCurrentMenu(menus.resume);
+            setCurrentMenu(menus.contact);
             el.scrollIntoView({ behavior: 'smooth', block: 'end' });
           }}
-          to={routes.RESUME}
-          className={ifCurrentMenu(menus.resume) ? styles.active : ''}>
+          to={routes.CONTACT}
+          className={ifCurrentMenu(menus.contact) ? styles.active : ''}>
           <CgFileDocument />
           Contact
         </NavHashLink>

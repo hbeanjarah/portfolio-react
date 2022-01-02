@@ -16,7 +16,9 @@
   font-size: 1.2rem;
   color: var(--txt);
   text-decoration: none;
-  transition: all 0.35s ease-out 0s;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  transition: all 0.2s linear;
   &:after {
     content: '';
     position: relative;
@@ -39,12 +41,12 @@
 }
 
 .active {
-  border-bottom: 3px solid #c95bf5;
+  border-bottom: 1px solid #000;
   transition: all 0.35s ease-out 0s;
 }
 
 .navBar li a:hover {
-  border-bottom: 3px solid #c95bf5;
+  border-bottom: 1px solid #000;
   transition: all 0.35s ease-out 0s;
 }
 

@@ -8,12 +8,9 @@ import ModalProjectCard from './ModalProjectCard';
 const Project = () => {
   const [open, setOpen] = useState<boolean>(false);
   const [project, setProject] = useState<ProjectInterface>(INIT_PROJECT);
-  const handleOpen = () => {};
   return (
     <div className={styles.content} id="section-porject">
-      <h1 className={styles.title}>
-        My Recent <strong className={styles.purple}>Works</strong>
-      </h1>
+      <h1 className={styles.title}>My Recent Works</h1>
       <p className={styles.subtitle}>Here are a few projects I've worked on recently.</p>
 
       <Row className={styles.projects}>
