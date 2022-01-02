@@ -1,9 +1,10 @@
 {
-  "homepage": "https://hbeanjarah.github.io/hbeanjara.github.io/",
+  "homepage": "https://hbeanjarah.github.io/portfolio-react",
   "name": "portfolio-react",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
+    "@fluentui/react": "^8.48.1",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -24,6 +25,7 @@
     "react-router-dom": "^6.2.1",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.0",
+    "react-transition-group": "^4.4.2",
     "tsparticles": "^1.37.6",
     "typescript": "^4.5.4",
     "typewriter-effect": "^2.18.2",
@@ -57,6 +59,7 @@
   "devDependencies": {
     "@types/react-lazy-load-image-component": "^1.5.2",
     "@types/react-router-hash-link": "^2.4.4",
+    "@types/react-transition-group": "^4.4.4",
     "@typescript-eslint/eslint-plugin": "^5.8.0",
     "@typescript-eslint/parser": "^5.8.0",
     "eslint": "^8.5.0",

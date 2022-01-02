@@ -5,6 +5,7 @@ import MainSection from './MainSection/MainSection';
 import AboutSection from './AboutSection';
 import ScrollToTop from '../../components/UIElement/ScrollToTop';
 import ScrollToNext from '../../components/UIElement/ScrollToNext';
+import Project from '../Project';
 const Home = () => {
   const secondSectionRef = createRef();
   const topSectionRef = createRef();
@@ -17,6 +18,7 @@ const Home = () => {
         {showScrollNext && <ScrollToNext ref={secondSectionRef} />}
       </BackgroundSection>
       <AboutSection ref={secondSectionRef} />
+      <Project />
       <ScrollToTop />
     </HomeLayout>
   );

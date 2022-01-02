@@ -8,7 +8,7 @@ import 'antd/dist/antd.min.css';
 const App = () => {
   return (
     <Suspense fallback={<Preloader />}>
-      <Router>
+      <Router basename="/portfolio-react">
         <BaseRoutes />
       </Router>
     </Suspense>

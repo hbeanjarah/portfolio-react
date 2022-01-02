@@ -46,7 +46,7 @@ const NavLinks = () => {
       </li>
       <li>
         <NavHashLink
-          to={routes.PROJECTS}
+          to={routes.PROJECT}
           scroll={(el) => {
             setCurrentMenu(menus.projects);
             el.scrollIntoView({ behavior: 'smooth', block: 'end' });
@@ -54,6 +54,18 @@ const NavLinks = () => {
           className={ifCurrentMenu(menus.projects) ? styles.active : ''}>
           <AiOutlineFundProjectionScreen />
           Projects
+        </NavHashLink>
+      </li>
+      <li>
+        <NavHashLink
+          scroll={(el) => {
+            setCurrentMenu(menus.resume);
+            el.scrollIntoView({ behavior: 'smooth', block: 'end' });
+          }}
+          to={routes.RESUME}
+          className={ifCurrentMenu(menus.resume) ? styles.active : ''}>
+          <CgFileDocument />
+          Contact
         </NavHashLink>
       </li>
       <li>

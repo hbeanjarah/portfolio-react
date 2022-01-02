@@ -7,11 +7,18 @@
 //theme
 @use 'theme';
 
+@import '@fluentui/react/dist/sass/References';
+
+@font-face {
+  font-family: 'SegoeUI';
+  src: local('SegoeUI'), url('../assets/fonts/segoeui.ttf') format('truetype');
+}
+
 html,
 body {
-  font-size: 16px;
+  font-size: $ms-font-size-16;
   margin: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'SegoeUI';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -32,11 +39,14 @@ body {
 *::after {
   box-sizing: border-box;
 }
+
 a {
+  font-family: 'SegoeUI';
   text-decoration: none;
   color: inherit;
   cursor: pointer;
 }
+
 button {
   background-color: transparent;
   color: inherit;
@@ -44,6 +54,7 @@ button {
   padding: 0;
   cursor: pointer;
 }
+
 figure {
   margin: 0;
 }
@@ -68,9 +79,11 @@ h6 {
   margin: 0;
   font-size: inherit;
   font-weight: inherit;
+  font-family: 'SegoeUI';
 }
 p {
   margin: 0;
+  font-family: 'SegoeUI';
 }
 cite {
   font-style: normal;

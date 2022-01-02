@@ -22,7 +22,7 @@ const SecondSection = forwardRef((props, ref) => (
       </div>
     </div>
 
-    <div className={styles.introSocial}>
+    {/* <div className={styles.introSocial}>
       <h1>FIND ME ON</h1>
       <p>
         Feel free to <span className={styles.purple}>contact </span> me on
@@ -65,7 +65,7 @@ const SecondSection = forwardRef((props, ref) => (
           </a>
         </li>
       </ul>
-    </div>
+    </div> */}
   </section>
 ));
 

@@ -26,11 +26,11 @@ const MainSection = (props: MainSectionProps) => {
             </strong>
           </h1>
 
-          <div style={{ paddingTop: 50 }}>
+          <div style={{ paddingTop: 0 }}>
             <Typewriter
               strings={[
                 'Fullstack Javascript Developer',
-                'Continuously Learning',
+                'Continuously Learning new stack',
                 'Aims to become aws architect solution'
               ]}
               wrapperClassName={styles.typewriterWrapper}

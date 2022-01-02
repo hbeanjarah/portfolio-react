@@ -3,6 +3,6 @@ export const routes = {
   HOMESECTION: '/#section-home',
   ABOUT: '/#section-about',
   PROJECTS: '/projects',
-  PROJECT: '/project/:id',
+  PROJECT: '/#section-porject',
   RESUME: '/resume'
 };
