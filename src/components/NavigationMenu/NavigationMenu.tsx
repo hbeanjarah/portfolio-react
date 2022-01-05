@@ -20,6 +20,7 @@ const NavLinks = () => {
     if (currentMenu === (menus as any)[menu]) return true;
     return false;
   };
+
   return (
     <ul className={styles.navBar}>
       <li>
@@ -75,8 +76,8 @@ const NavLinks = () => {
             setCurrentMenu(menus.resume);
             el.scrollIntoView({ behavior: 'smooth', block: 'end' });
           }}
-          to={routes.RESUME}
-          className={ifCurrentMenu(menus.resume) ? styles.active : ''}>
+          to={'#'}
+          onClick={() => console.log('resume is clicked')}>
           <CgFileDocument />
           Resume
         </NavHashLink>

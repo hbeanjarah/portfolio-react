@@ -42,13 +42,19 @@
 }
 
 .title {
-  margin-bottom: 0.75rem;
-  font-size: 1.25rem;
+  font-size: 22px;
+  line-height: 1.6;
+  font-weight: 500;
+  color: #051441;
+  font-style: italic;
+  margin-bottom: 20px;
   text-align: center;
+  font-family: Poppins, sans-serif;
 }
 
 .description {
   text-align: justify;
   margin-top: 0;
+  font-family: Poppins, sans-serif;
   margin-bottom: 1rem;
 }

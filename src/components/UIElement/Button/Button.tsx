@@ -1,19 +1,18 @@
 import cx from 'classnames';
 import styles from './Button.module.scss';
-
+import { Button } from 'antd';
 interface ButtonProps {
-  type?: 'button' | 'submit' | 'reset';
   onClick?: () => void;
   disabled?: boolean;
   className: string;
   children?: any;
   href?: any;
-  target: React.HTMLAttributeAnchorTarget;
+  target?: React.HTMLAttributeAnchorTarget;
   style: any;
   addClass?: any;
 }
-const Button = (props: ButtonProps) => {
-  const { addClass, children, className, disabled, style, onClick, type, href, target } = props;
+const ButtonCustom = (props: ButtonProps) => {
+  const { addClass, children, className, disabled, style, onClick, href, target } = props;
   if (href) {
     return (
       <a
@@ -27,15 +26,14 @@ const Button = (props: ButtonProps) => {
   }
 
   return (
-    <button
+    <Button
       style={style}
-      className={cx(styles.btn, (styles as any)[className], addClass)}
-      type={type}
+      className={cx(styles.btnReal, (styles as any)[className], addClass)}
       onClick={onClick}
       disabled={disabled}>
       {children}
-    </button>
+    </Button>
   );
 };
 
-export default Button;
+export default ButtonCustom;
