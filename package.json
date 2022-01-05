@@ -58,6 +58,7 @@
     ]
   },
   "devDependencies": {
+    "@types/file-saver": "^2.0.4",
     "@types/react-lazy-load-image-component": "^1.5.2",
     "@types/react-router-hash-link": "^2.4.4",
     "@types/react-transition-group": "^4.4.4",
