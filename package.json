@@ -1,8 +1,10 @@
 {
+  "homepage": "https://hbeanjarah.github.io/portfolio-react",
   "name": "portfolio-react",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
+    "@fluentui/react": "^8.48.1",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -10,16 +12,31 @@
     "@types/node": "^16.11.15",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
+    "antd": "^4.18.2",
+    "classnames": "^2.3.1",
+    "file-saver": "^2.0.5",
+    "modern-normalize": "^1.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-lazy-load-image-component": "^1.5.1",
+    "react-parallax-tilt": "^1.5.83",
+    "react-particles-js": "^3.6.0",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.0",
+    "react-transition-group": "^4.4.2",
+    "tsparticles": "^1.37.6",
     "typescript": "^4.5.4",
+    "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -41,12 +58,18 @@
     ]
   },
   "devDependencies": {
+    "@types/file-saver": "^2.0.4",
+    "@types/react-lazy-load-image-component": "^1.5.2",
+    "@types/react-router-hash-link": "^2.4.4",
+    "@types/react-transition-group": "^4.4.4",
     "@typescript-eslint/eslint-plugin": "^5.8.0",
     "@typescript-eslint/parser": "^5.8.0",
     "eslint": "^8.5.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
-    "prettier": "^2.5.1"
+    "gh-pages": "^3.2.3",
+    "prettier": "^2.5.1",
+    "typescript-plugin-css-modules": "^3.4.0"
   }
 }

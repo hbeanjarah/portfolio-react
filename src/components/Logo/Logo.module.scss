@@ -1,0 +1,10 @@
+.logo {
+  font-weight: bold; // mettre en gras
+  font-size: 2em; // Une taille de 6 fois la taille normale
+  color: #efefef;
+  text-shadow: 1px 3px 8px rgba(0, 0, 0, 0.8); // une ombre de 8px decalÃ© de 3px et 1px avec une couleur noir Ã  80% d'opacitÃ©
+}
+
+.logo:hover {
+  color: brown;
+}

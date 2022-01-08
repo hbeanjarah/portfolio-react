@@ -1,0 +1,89 @@
+@use '../../../styles/keyframes';
+
+.content {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--theme-color);
+  text-align: left;
+}
+
+@mixin aboutStyle {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 70px;
+  padding-bottom: 30px;
+  letter-spacing: -1.01px;
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+}
+
+.title {
+  @include aboutStyle();
+}
+
+.wave {
+  animation-name: wave;
+  animation-duration: 2.1s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+.mainTitle {
+  @include aboutStyle();
+  word-spacing: 0.3rem;
+}
+
+.postTitle {
+  @include aboutStyle();
+  color: #0db3c7;
+  font-weight: 900;
+}
+
+.mainName {
+  color: var(--txt-sec-darcker);
+  text-transform: none;
+  font-family: sans-serif;
+  & > span {
+    text-transform: uppercase;
+  }
+}
+
+.homeMainIcon {
+  display: flex !important;
+  width: 37%;
+  min-height: 25rem;
+  margin-top: 2rem;
+  padding: 0 15px;
+
+  & > img {
+    min-width: 230px;
+    height: auto;
+  }
+}
+
+.typewriterWrapper {
+  font-size: 2.2em;
+  color: #b6d094;
+  font-weight: 600;
+  font-family: 'SegoeUI';
+}
+.typewriterCursor {
+  font-size: 2.4em;
+  color: #b562d6;
+}
+
+@media (max-width: 925px) {
+  .content {
+    padding: 9rem 3rem 1rem;
+    flex-wrap: wrap;
+  }
+  .homeMainIcon {
+    justify-content: center;
+    width: 60%;
+  }
+}
