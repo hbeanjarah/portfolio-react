@@ -3,7 +3,8 @@
  <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Be Anjara Portfolio</h3>
+<h3 align="center">Be Anjara Portfolio</h3> <br>
+<h3 align="center">Link to project: <a href="https://hbeanjarah.github.io/portfolio-react/">Be Anjara Portfolio </a> </h3> <br>
 
 <div align="center">
 
